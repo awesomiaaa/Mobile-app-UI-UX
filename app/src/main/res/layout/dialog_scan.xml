@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="375dp"
+    android:layout_height="500dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <GridLayout
+        android:id="@+id/GridLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="1"
+        android:rowCount="10"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_anchor="@id/main.appbar"
+        app:layout_anchorGravity="bottom"
+        >
+
+        <Button
+            android:id="@+id/a1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/background"
+            android:text="A1"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/a2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="@drawable/background"
+            android:text="A2"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/redbg"
+            android:text="B1"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:background="@drawable/redbg"
+            android:text="B2"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+    </GridLayout>
+
+</ScrollView>
