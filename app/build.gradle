@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 28
+
     defaultConfig {
         applicationId "com.example.deguzman.ui"
         minSdkVersion 15
@@ -39,5 +40,9 @@ dependencies {
     implementation 'com.nineoldandroids:library:2.4.0'
     // This dude gave a shoutout to you (daimajia) on his github page:
     implementation 'jp.wasabeef:recyclerview-animators:1.0.3@aar'
+
+
+
+    implementation "com.android.support:palette-v7:28.0.0"
 
 }

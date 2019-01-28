@@ -33,5 +33,15 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+
+        Button history = (Button) findViewById(R.id.history);
+        history.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(HomeActivity.this, HistoryActivity.class);
+                startActivity(i);
+            }
+        });
     }
 }
